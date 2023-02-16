@@ -1,0 +1,55 @@
+.main-bg {
+  background: black;
+  padding-bottom: 0;
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+}
+
+.introducao-conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-family: Poppins;
+  padding: 0px 0px;
+}
+
+.introducao-conteudo h1,
+p {
+  color: white;
+}
+
+.introducao-conteudo h1 {
+  font-size: 45px;
+  flex-wrap: wrap;
+  letter-spacing: 2px;
+}
+
+.introducao-conteudo p {
+  font-size: 25px;
+  color: #b2b2b2;
+}
+.ponto {
+  color: #ffb60d;
+}
+
+.botao {
+  color: black;
+  background-color: #ffb60d;
+  padding: 16px 32px;
+  border-radius: 4px;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.botao:hover {
+  background-color: #e59317;
+}

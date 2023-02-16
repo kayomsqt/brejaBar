@@ -1,0 +1,42 @@
+.header-bg {
+  background: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-menu a {
+  color: white;
+  display: inline-block;
+  padding: 16px 0;
+  position: relative;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.header-menu a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: white;
+  margin-top: 4px;
+}
+
+.header-menu a:hover:after {
+  width: 100%;
+  transition: 0.3s;
+}
