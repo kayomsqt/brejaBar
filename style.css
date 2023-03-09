@@ -6,3 +6,9 @@
 @import "./global-css/main.css";
 
 @import "./global-css/responsivo.css";
+
+@import "./global-css/lista.css";
+
+@import "./global-css/orcamento.css";
+
+@import "./global-css/footer.css";

@@ -40,3 +40,7 @@
   width: 100%;
   transition: 0.3s;
 }
+
+.bar {
+  display: flex;
+}

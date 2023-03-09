@@ -1,12 +1,13 @@
 .main-bg {
   background: black;
-  padding-bottom: 0;
+  padding-bottom: 80px;
 }
 
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 80px;
+  gap: 50px;
 }
 
 .introducao-conteudo {

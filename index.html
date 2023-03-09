@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>BrejaBar</title>
+  <script src="./script.js" defer></script>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
@@ -19,8 +20,8 @@
       </a>
       <nav aria-label="primaria">
         <ul class="header-menu">
-          <li><a href="./">Cervejas</a></li>
-          <li><a href="./">Comprar</a></li>
+          <li><a href="#cervejolas">Cervejolas</a></li>
+          <li><a href="#comprar">Comprar</a></li>
           <li><a href="./">Endereço</a></li>
         </ul>
       </nav>
@@ -34,20 +35,76 @@
         <p>Cervejas de alta qualidade em barris de alta qualidade, fazendo você ter uma experiência de altíssima qualidade.</p>
         <a class="botao" href="./">ESCOLHA A SUA</a>
       </div>
-      <picture>
+      <picture class="bar">
         <img src="./img/barril.png" alt="imagem-barril">
       </picture>
     </div>
   </main>
 
   <article class="barril-lista">
-    <h2>qual vai ser?</h2>
+    <h2 id="cervejolas" class="container">qual vai ser?</h2>
+
     <ul>
       <li>
+        <a href="./">
+          <img src="./img/barril1.png" alt="Carvalho">
+          <h3>Barril de Carvalho</h3>
+        </a>
+      </li>
 
+      <li>
+        <a href="./">
+          <img src="./img/barril2.png" alt="Jequitibá">
+          <h3>Barril de Jequitibá</h3>
+        </a>
+      </li>
+
+      <li>
+        <a href="./">
+          <img src="./img/barril3.png" alt="Amburana">
+          <h3>Barril de Amburana</h3>
+        </a>
       </li>
     </ul>
+
   </article>
+
+  <section id="comprar" class="orcamento-1">
+
+    <div class="texto">
+      <h1 class="container">Orçamento<span class="ponto">.</span></h1>
+      <p>"Entre em contato com a gente, nós teremos um imenso prazer em ajudar a escolher o melhor BARRIL para você."</p>
+    </div>
+
+    <div>
+      <form id="form" class="orcamento" action="form">
+        <label for="name">Nome</label>
+        <input type="text" id="name">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email">
+
+        <label for="password">Senha</label>
+        <input type="password" id="password">
+
+        <label for="desejo">Vontade de beber?</label>
+        <select name="desejo" id="desejo">
+          <option value="">Bora dale?</option>
+          <option value="yes">Sim</option>
+          <option value="no">Não</option>
+        </select>
+        <label for="message">Mensagem</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <p>Quase todos os direitos reservadolas.</p>
+  </footer>
 
 </body>
 
