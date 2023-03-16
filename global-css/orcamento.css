@@ -34,7 +34,14 @@ textarea {
   border-radius: 5px;
   font-size: 1.1rem;
 }
+
+select {
+  width: 104%;
+  margin-bottom: 10px;
+}
+
 button {
+  width: 104%;
   padding: 10px;
   border: none;
   border-radius: 5px;
