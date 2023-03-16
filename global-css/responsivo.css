@@ -51,12 +51,6 @@
 /* lista  [3] */
 
 @media (max-width: 800px) {
-  .barril-lista {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
   .barril-lista img {
     display: none;
   }
@@ -64,6 +58,10 @@
   #cervejolas {
     font-size: 40px;
     margin-top: -20px;
+    margin-left: 40px;
+  }
+
+  .responsivo-ul {
   }
 }
 
@@ -94,5 +92,33 @@
   }
   .orcamento-1 button {
     width: 72%;
+  }
+}
+
+@media (max-width: 600px) {
+  .texto p {
+    display: none;
+  }
+
+  .texto h1 {
+    margin-left: 85px;
+  }
+
+  .orcamento-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -30px;
+  }
+  .orcamento-1 input {
+    width: 46%;
+  }
+  .orcamento-1 select {
+    width: 50%;
+  }
+  .orcamento-1 textarea {
+    width: 46%;
+  }
+  .orcamento-1 button {
+    width: 50%;
   }
 }
