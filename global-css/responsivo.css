@@ -110,15 +110,15 @@
     margin-left: -30px;
   }
   .orcamento-1 input {
-    width: 48%;
+    width: 50%;
   }
   .orcamento-1 select {
-    width: 52%;
+    width: 54%;
   }
   .orcamento-1 textarea {
-    width: 48%;
+    width: 50%;
   }
   .orcamento-1 button {
-    width: 52%;
+    width: 54%;
   }
 }
