@@ -51,17 +51,21 @@
 /* lista  [3] */
 
 @media (max-width: 800px) {
-  .barril-lista img {
-    display: none;
+  #barril-listaId {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 30px;
+  }
+
+  #barril-listaId img {
+    width: 400px;
   }
 
   #cervejolas {
     font-size: 40px;
     margin-top: -20px;
     margin-left: 40px;
-  }
-
-  .responsivo-ul {
   }
 }
 
